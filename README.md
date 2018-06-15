@@ -9,14 +9,19 @@
 본 연구의 내용은 [문서](https://1drv.ms/w/s!AllPqyV9kKUrkULe4nbvFU8Oj8j3)와 [파워포인트](https://1drv.ms/p/s!AllPqyV9kKUrkUOft37gKbgNnOIz)에 정리되어 있다.
 
 ## Prerequisites
-
+* [spaCy](https://spacy.io/)
+* [NLTK](https://www.nltk.org/)
+* [sense2vec](https://github.com/explosion/sense2vec)
+* [pdfminer](https://github.com/euske/pdfminer) (Python PDF Parser)
+* [NeuroNER](https://github.com/Franck-Dernoncourt/NeuroNER) (Neural Model for NER)
+* [GloVe](https://nlp.stanford.edu/projects/glove/) (pretrained word embedding; glove.6B.100d.txt)
 
 ## Model
 * NeuroNER; a program for named entity recognition based on nueral networks [[github](https://github.com/Franck-Dernoncourt/NeuroNER)] [[web-site](http://neuroner.com/)]
 * Window Model for NER [[cs224d](http://cs224d.stanford.edu/assignment2/index.html)] (참고: window_rnn_ner 폴더에서 python root.py 30(#epoch) 실행)
 
 ## Dataset
-
+* CoNLL 2003 shared task (NER) data [[url](https://cogcomp.org/page/resource_view/81)]
 
 ## Usage
 
