@@ -167,8 +167,8 @@ def load_csv(DATASET):
 
     if DATASET == 'agnews':
         # data load
-        train = pd.read_csv('dataset/ag_news_csv/train.csv', header=None)
-        test = pd.read_csv('dataset/ag_news_csv/test.csv', header=None) # test set은 is only for statistical analysis
+        train = pd.read_csv('ag_news_csv/train.csv', header=None)
+        test = pd.read_csv('ag_news_csv/test.csv', header=None) # test set은 is only for statistical analysis
         #^^; since ag-news dataset does not have NA data, we do not need to have 'keep_default_na=False'
 
         ## column rename
@@ -180,9 +180,9 @@ def load_csv(DATASET):
         
     elif DATASET == 'sst':
         # data load
-        train = pd.read_csv('dataset/sst_csv/sst_train_sentences.csv', header=None, keep_default_na=False)
-        dev = pd.read_csv('dataset/sst_csv/sst_dev.csv', header=None, keep_default_na=False)
-        test = pd.read_csv('dataset/sst_csv/sst_test.csv', header=None, keep_default_na=False)
+        train = pd.read_csv('sst_csv/sst_train_sentences.csv', header=None, keep_default_na=False)
+        dev = pd.read_csv('sst_csv/sst_dev.csv', header=None, keep_default_na=False)
+        test = pd.read_csv('sst_csv/sst_test.csv', header=None, keep_default_na=False)
 
         ## column rename
         train.columns = ['y', 'X']
