@@ -25,6 +25,13 @@
 
 ## Usage
 
+1. 
+
+2. **Execute Model** (before doing, change dataset in data/conll2003/.. into new dataset generated via 1.)
+```
+~$ python src-neuroner/root.py 10
+```
+
 
 ## Contribution
 
