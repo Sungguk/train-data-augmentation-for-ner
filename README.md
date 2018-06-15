@@ -18,7 +18,7 @@
 
 ## Model
 * NeuroNER; a program for named entity recognition based on nueral networks [[github](https://github.com/Franck-Dernoncourt/NeuroNER)] [[web-site](http://neuroner.com/)]
-* Window Model for NER [[cs224d](http://cs224d.stanford.edu/assignment2/index.html)] (참고: window_rnn_ner 폴더에서 python root.py 30(#epoch) 실행)
+* Window Model for NER [[cs224d](http://cs224d.stanford.edu/assignment2/index.html)] (참고: window_rnn_ner 폴더에서 python root.py 10(#exe) 실행)
 
 ## Dataset
 * CoNLL 2003 shared task (NER) data [[url](https://cogcomp.org/page/resource_view/81)]
