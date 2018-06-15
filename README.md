@@ -11,6 +11,10 @@
 ## Prerequisites
 
 
+## Model
+* NeuroNER; a program for named entity recognition based on nueral networks [[github](https://github.com/Franck-Dernoncourt/NeuroNER)] [[web-site](http://neuroner.com/)]
+* Window Model for NER [[cs224d](http://cs224d.stanford.edu/assignment2/index.html)] (참고: window_rnn_ner 폴더)
+
 ## Dataset
 
 
