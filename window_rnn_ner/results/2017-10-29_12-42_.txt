@@ -1,0 +1,5 @@
+data/converted_conll2003/train.txt
+max_epoch = 30
+best_val_epoch = 15
+All = 0.932098632497
+Only_NER = 0.712524654832
