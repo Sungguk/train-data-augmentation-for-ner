@@ -11,6 +11,7 @@
 ## Prerequisites
 * [spaCy](https://spacy.io/)
 * [NLTK](https://www.nltk.org/)
+* [Stanford Parser](https://nlp.stanford.edu/software/lex-parser.html)
 * [sense2vec](https://github.com/explosion/sense2vec)
 * [pdfminer](https://github.com/euske/pdfminer) (Python PDF Parser)
 * [NeuroNER](https://github.com/Franck-Dernoncourt/NeuroNER) (Neural Model for NER)
@@ -21,13 +22,13 @@
 * Window Model for NER [[cs224d](http://cs224d.stanford.edu/assignment2/index.html)] (참고: window_rnn_ner 폴더에서 python root.py 10(#exe) 실행)
 
 ## Dataset
-* CoNLL 2003 shared task (NER) data [[url](https://cogcomp.org/page/resource_view/81)]
+* [CoNLL 2003 shared task (NER) data](https://cogcomp.org/page/resource_view/81)
 
 ## Usage
 
 1. **Generate Augmented Data**
 ```
-~$ python src-aug/root.py 10
+~$ python src-aug/main.py
 ```
 
 2. **Execute Model** (before doing, change data in data/conll2003/en/.. into augmented data generated via 1.)
