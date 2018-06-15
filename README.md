@@ -25,15 +25,22 @@
 
 ## Usage
 
-1. 
+1. **Generate Augmented Data**
+```
+~$ python src-aug/root.py 10
+```
 
-2. **Execute Model** (before doing, change dataset in data/conll2003/.. into new dataset generated via 1.)
+2. **Execute Model** (before doing, change data in data/conll2003/en/.. into augmented data generated via 1.)
 ```
 ~$ python src-neuroner/root.py 10
 ```
 
 
 ## Contribution
+* 이산적 특징을 가지는 텍스트 학습 데이터를 자동으로 늘릴 수 있는 연구
+* wordnet과 word2vec을 사용한 교체 알고리즘 설계
+* 연어 사전을 이용한 삽입 알고리즘 설계
+* 구문 분석기를 이용한 이동, 삭제 알고리즘 설계
 
 
 ## Summary
