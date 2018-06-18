@@ -26,6 +26,9 @@
 
 ## Usage
 
+0. **Prepare resources** (friend_list, voca) for insert module via pdfminer.six/convert_pdf.ipynb  
+
+
 1. **Generate Augmented Data**
 ```
 ~$ python src-aug/main.py
