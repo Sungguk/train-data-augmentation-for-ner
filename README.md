@@ -44,7 +44,7 @@
 ```
 ~$ python src-aug/main.py
 ```
-* After executing 1, change data in data/conll2003/en/.. into augmented data
+* After executing 1, change data in data/conll2003/en/.. into augmented data in the gen_data/logic/
 
 ### 2. **Execute Model** 
 
