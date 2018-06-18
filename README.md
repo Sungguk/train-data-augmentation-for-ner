@@ -16,6 +16,7 @@
 * [pdfminer](https://github.com/euske/pdfminer) (Python PDF Parser)
 * [NeuroNER](https://github.com/Franck-Dernoncourt/NeuroNER) (Neural Model for NER)
 * [GloVe](https://nlp.stanford.edu/projects/glove/) (pretrained word embedding; glove.6B.100d.txt)
+* [Oxford Collocation Dictionary](http://www.freecollocation.com/)
 
 ## Model
 * NeuroNER; a program for named entity recognition based on nueral networks [[github](https://github.com/Franck-Dernoncourt/NeuroNER)] [[web-site](http://neuroner.com/)]
