@@ -30,10 +30,10 @@
 ## Usage
 
 ### 0. **Prepare resources** <br>
-* Download Stanford Parser in the C://
-* Download dataset in the data/
-* Download pdfminer github in pdfminer/
-* Download sense2vec github in github/
+* Download *Stanford Parser* in the C://
+* Download *dataset* in the data/
+* Download *pdfminer github* in pdfminer/
+* Download *sense2vec github* in github/
 * Download *Oxford Collocation Dictionary* as pdf file in the pdfminer/myDir/
 * Generate *friend_list* and *voca* for insert module by executing `pdfminer.six/convert_pdf.ipynb` and locate them in resources/for_insert/
 * Generate *entities* via `ipython_notebook/make entity dic.ipynb` and store them in the resources/entity_info/
