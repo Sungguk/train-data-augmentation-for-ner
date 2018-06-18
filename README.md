@@ -16,7 +16,7 @@
 * [pdfminer](https://github.com/euske/pdfminer) (Python PDF Parser)
 * [NeuroNER](https://github.com/Franck-Dernoncourt/NeuroNER) (Neural Model for NER)
 * [GloVe](https://nlp.stanford.edu/projects/glove/) (pretrained word embedding; glove.6B.100d.txt)
-* [Oxford Collocation Dictionary](http://www.freecollocation.com/): download it as pdf file in pdfminer/myDir/
+* [Oxford Collocation Dictionary](http://www.freecollocation.com/)
 
 ## Model
 * NeuroNER; a program for named entity recognition based on nueral networks [[github](https://github.com/Franck-Dernoncourt/NeuroNER)] [[web-site](http://neuroner.com/)]
@@ -28,7 +28,8 @@
 ## Usage
 
 0. **Prepare resources** <br>
-Generate *friend_list* and *voca* for insert module by executing pdfminer.six/convert_pdf.ipynb and locate them in resources/for_insert/
+* Download download `Oxford Collocation Dictionary` as pdf file in the pdfminer/myDir/
+* Generate *friend_list* and *voca* for insert module by executing pdfminer.six/convert_pdf.ipynb and locate them in resources/for_insert/
 
 
 1. **Generate Augmented Data**
