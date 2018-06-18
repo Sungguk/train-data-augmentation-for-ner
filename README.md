@@ -26,25 +26,32 @@
 * [CoNLL 2003 shared task (NER) data](https://cogcomp.org/page/resource_view/81)
 * [ACE 2005 Multilingual Training Corpus](https://catalog.ldc.upenn.edu/ldc2006t06) (for entity-replace)
 
+
 ## Usage
 
-0. **Prepare resources** <br>
+### 0. **Prepare resources** <br>
 * Download Stanford Parser in the C://
 * Download dataset in the data/
+* Download pdfminer github in pdfminer/
+* Download sense2vec github in github/
 * Download *Oxford Collocation Dictionary* as pdf file in the pdfminer/myDir/
-* Generate *friend_list* and *voca* for insert module by executing pdfminer.six/convert_pdf.ipynb and locate them in resources/for_insert/
-* Generate *entities* via ipython_notebook/make entity dic.ipynb and store them in the resources/entity_info/
+* Generate *friend_list* and *voca* for insert module by executing `pdfminer.six/convert_pdf.ipynb` and locate them in resources/for_insert/
+* Generate *entities* via `ipython_notebook/make entity dic.ipynb` and store them in the resources/entity_info/
 
 
-1. **Generate Augmented Data**
+### 1. **Generate Augmented Data**
+* Before executing 1, fill out hyperparameters in the parameters.ini file.
 ```
 ~$ python src-aug/main.py
 ```
+* After executing 1, change data in data/conll2003/en/.. into augmented data
 
-2. **Execute Model** (before doing, change data in data/conll2003/en/.. into augmented data generated via 1.)
+### 2. **Execute Model** 
+
 ```
 ~$ python src-neuroner/root.py 10
 ```
+* arg: number of running times
 
 
 ## Contribution
