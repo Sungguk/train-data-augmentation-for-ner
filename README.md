@@ -53,6 +53,7 @@
 ```
 * arg: number of running times
 
+![](assets/result.PNG)
 
 ## Contribution
 * 이산적 특징을 가지는 텍스트 학습 데이터를 자동으로 늘릴 수 있는 연구
