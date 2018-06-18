@@ -67,7 +67,7 @@
 * 연구 아이디어 및 관련연구 정리 [[문서](https://1drv.ms/p/s!AllPqyV9kKUrkUt29nfhcEL-XRI_)]
 * 연구 노트 정리 [[문서](https://1drv.ms/w/s!AllPqyV9kKUrkW9YbbtvBB_UpHVd)]
 * 삽입 모듈에 사용되는 oxford collocation dictionary를 문서화하기 위하여 [pdfminer](https://github.com/euske/pdfminer) 사용 (참고: insert.ipynb)
-
+* subset_generator.py를 통해 데이터의 subset을 만듦 (ex. 30%의 데이터셋)
 
 ## Acknowledgement
 Korea Institute of Science and Technology Information (KISTI) <br>
