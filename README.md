@@ -14,7 +14,8 @@
    * 삭제와 이동: 구문 파서를 활용하여 부사절 수식어구를 삭제 및 이동하면서 문장을 변형
 
 
-본 연구의 내용은 [문서](https://1drv.ms/w/s!AllPqyV9kKUrkULe4nbvFU8Oj8j3)와 [파워포인트](https://1drv.ms/p/s!AllPqyV9kKUrkUOft37gKbgNnOIz)에 정리되어 있다. ipython_notebook 폴더에는 notebook 버전의 소스코드가 있다. 또한, 본 연구의 발표 자료는 [여기](https://1drv.ms/p/s!AllPqyV9kKUrl133BcFl2M4crEXj)에 있다.
+본 연구의 내용은 [문서](https://1drv.ms/w/s!AllPqyV9kKUrkULe4nbvFU8Oj8j3)와 [파워포인트](https://1drv.ms/p/s!AllPqyV9kKUrkUOft37gKbgNnOIz)에 정리되어 있다. ipython_notebook 폴더에는 notebook 버전의 소스코드가 있다. <br>
+또한, 본 연구의 발표 자료는 [여기](https://1drv.ms/p/s!AllPqyV9kKUrl133BcFl2M4crEXj)에 있다.
 
 
 ## Prerequisites
