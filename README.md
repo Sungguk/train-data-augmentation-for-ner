@@ -83,6 +83,11 @@ _Resources_
 * 삽입 모듈에 사용되는 oxford collocation dictionary를 문서화하기 위하여 [pdfminer](https://github.com/euske/pdfminer) 사용 (참고: insert.ipynb)
 * subset_generator.py를 통해 데이터의 subset을 만듦 (ex. 30%의 데이터셋)
 
+## Further Study
+* 각 모듈의 효과를 검증할 수 있는 방법 개발
+* 교체 모듈에서 문맥을 고려한 최적의 유사어를 선택할 수 있는 방법 개발
+* 일반화에 대한 고찰 (학습/평가 데이터가 제한된 문장 형태(i.e. 뉴스 기사 형식)를 가지는데, 다양한 문장 형태가 오히려 독이 될 수도)
+
 ## Acknowledgement
 Korea Institute of Science and Technology Information (KISTI) <br>
 University of Science and Technology (UST), Korea <br>
