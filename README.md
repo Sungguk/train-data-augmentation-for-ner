@@ -87,6 +87,8 @@ _Resources_
 * 각 모듈의 효과를 검증할 수 있는 방법 개발
 * 교체와 삽입 모듈에서 해당 단어가 아닌 문맥을 동시에 고려한 최적의 유사어를 선택할 수 있는 방법 개발
 * 일반화에 대한 고찰 (학습/평가 데이터가 제한된 문장 형태(i.e. 뉴스 기사 형식)를 가지는데, 다양한 문장 형태가 오히려 독이 될 수도)
+* 다양한 성능의 기계학습 모델 활용 필요성
+* 이산적인 특징을 가지는 데이터에 대한 고찰
 
 ## Acknowledgement
 Korea Institute of Science and Technology Information (KISTI) <br>
